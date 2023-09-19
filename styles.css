@@ -1,0 +1,33 @@
+.image-container {
+    background-image: url('futurescape_cover.png'); 
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;  /* Add this line */
+}
+
+.text-container {
+    /* background-color: rgba(0,0,0,0.5); */
+    padding: 10px;
+    position: absolute; /* Add this line */
+    top: 75%; /* Add this line */
+    transform: translateY(-50%); /* Add this line */
+}
+
+.title {
+    font-family: 'Titan One', cursive;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-family: 'Titan One', cursive;
+    font-size: 60px;
+    color: #C5EBFB;
+}
